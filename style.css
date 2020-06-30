@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: 200;
+}
+.name{
+    color: #790d79;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+
+/*---- first section start ------*/
+.half-position{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-position img{
+    width: 100%;
+}
+
+.leftSide{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.rightSide{
+    margin-top: 5%;
+}
+
+/* second section---- */
+.lSide{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.rSide{
+    margin-top: 10%;
+}
+
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient( #f857a6 0%, #ff5858 51%, #f857a6 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.first-portion{
+    background-image: url('./images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-portion{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---- Third Section ---*/
+.third-portion{
+    background-image: url('./images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-work{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+    margin-top: 10%;
+}
+
+h3{
+    text-align: center;
+}
+
+.latest-work img{
+    width: 100%;
+}
+
+.latest-work:hover{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    background-color: white;
+}
+
+/*--- 4th Section */
+.fourth-portion{
+    background-image: url('./images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    text-align: center;
+    margin: 40px;
+}
+
+.btn2{
+    margin: 20px 300px;
+    background-image: linear-gradient(to right, #f857a6 0%, #ff5858 51%, #f857a6 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.tiny-text{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
